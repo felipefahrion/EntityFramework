@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\ExercicioEF_web\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj": {}
+    "C:\\Users\\arthu\\Desktop\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\ExercicioEF_web\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj": {
+    "C:\\Users\\arthu\\Desktop\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\ExercicioEF_web\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj",
+        "projectUniqueName": "C:\\Users\\arthu\\Desktop\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj",
         "projectName": "ExercicioEFCoreCodeFirst",
-        "projectPath": "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\ExercicioEF_web\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj",
-        "packagesPath": "C:\\Users\\Felipe Fahrion\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\ExercicioEF_web\\ExercicioEFCoreCodeFirst\\obj\\",
+        "projectPath": "C:\\Users\\arthu\\Desktop\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj",
+        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arthu\\Desktop\\EntityFramework\\ExercicioEFCoreCodeFirst\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Felipe Fahrion\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
