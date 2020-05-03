@@ -20,7 +20,7 @@ namespace MoviesWeb.Controllers
         // GET: Genres
         public async Task<IActionResult> Index()
         {
-            return View(GenreFacade.ListAllGenres());
+            return View(await GenreFacade.ListAllGenres());
         }
 
         // GET: Genres/Details/5
@@ -31,7 +31,7 @@ namespace MoviesWeb.Controllers
                 return NotFound();
             }
 
-            var genre = GenreFacade.DetailsGenreById(id);
+            var genre = await GenreFacade.DetailsGenreById(id);
 
             if (genre == null)
             {
@@ -42,10 +42,7 @@ namespace MoviesWeb.Controllers
         }
 
         // GET: Genres/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
+        public IActionResult Create() => View();
 
         // POST: Genres/Create
         [HttpPost]
@@ -54,7 +51,7 @@ namespace MoviesWeb.Controllers
         {
             if (ModelState.IsValid)
             {
-                GenreFacade.CreateGenre(genre);
+                await GenreFacade.CreateGenre(genre);
                 return RedirectToAction(nameof(Index));
             }
             return View(genre);
@@ -68,7 +65,7 @@ namespace MoviesWeb.Controllers
                 return NotFound();
             }
 
-            var genre = GenreFacade.EditGenre(id);
+            var genre = await GenreFacade.EditGenre(id);
 
             if (genre == null)
             {
@@ -91,7 +88,7 @@ namespace MoviesWeb.Controllers
             {
                 try
                 {
-                    GenreFacade.EditGenre(id, genre);
+                    await GenreFacade.EditGenre(id, genre);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -117,7 +114,7 @@ namespace MoviesWeb.Controllers
                 return NotFound();
             }
 
-            var genre = GenreFacade.GetToDeleteGenreById(id);
+            var genre = await GenreFacade.GetToDeleteGenreById(id);
 
             if (genre == null)
             {
@@ -132,13 +129,10 @@ namespace MoviesWeb.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            GenreFacade.DeleteById(id);
+            await GenreFacade.DeleteById(id);
             return RedirectToAction(nameof(Index));
         }
-        
-        private bool GenreExists(int id)
-        {
-            return new MovieContext().Genres.Any(e => e.GenreID == id);
-        }
+
+        private bool GenreExists(int id) => new MovieContext().Genres.Any(e => e.GenreID == id);
     }
 }

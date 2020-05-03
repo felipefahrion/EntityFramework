@@ -2,6 +2,7 @@
 using ExercicioEFCoreCodeFirst.PL;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ExercicioEFCoreCodeFirst.BLL.Facades
 {
@@ -14,39 +15,39 @@ namespace ExercicioEFCoreCodeFirst.BLL.Facades
             GenreDAO = new GenreDAO();
         }
 
-        public List<Genre> ListAllGenres()
+        public Task<List<Genre>> ListAllGenres()
         {
             return GenreDAO.ListAll();
         }
 
-        public Genre DetailsGenreById(int? id)
+        public Task<Genre> DetailsGenreById(int? id)
         {
             return GenreDAO.DetailsById(id);
         }
 
-        public void CreateGenre(Genre genre)
+        public async Task CreateGenre(Genre genre)
         {
-            GenreDAO.Create(genre);
+            await GenreDAO.Create(genre);
         }
 
-        public Genre EditGenre(int? id)
+        public Task<Genre> EditGenre(int? id)
         {
             return GenreDAO.EditById(id);
         }
 
-        public Genre EditGenre(int id, Genre genre)
+        public Task<Genre> EditGenre(int id, Genre genre)
         {
             return GenreDAO.EditByIdAndObject(id, genre);
         }
 
-        public Genre GetToDeleteGenreById(int? id)
+        public Task<Genre> GetToDeleteGenreById(int? id)
         {
             return GenreDAO.GetToDeleteById(id);
         }
 
-        public void DeleteById(int? id)
+        public async Task DeleteById(int? id)
         {
-            GenreDAO.DeleteById(id);
+            await GenreDAO.DeleteById(id);
         }
     }
 }

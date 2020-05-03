@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace ExercicioEFCoreCodeFirst.BLL.Daos
 {
@@ -22,47 +23,44 @@ namespace ExercicioEFCoreCodeFirst.BLL.Daos
             return _context;
         }
 
-        public List<Genre> ListAll()
+        public async Task<List<Genre>> ListAll() => await _context.Genres.ToListAsync();
+
+        public async Task<Genre> DetailsById(int? id)
         {
-            return new List<Genre>(_context.Genres.ToList());
+            return await _context.Genres.FirstOrDefaultAsync(m => m.GenreID == id);
         }
 
-        public Genre DetailsById(int? id)
-        {
-            return _context.Genres.FirstOrDefault(m => m.GenreID == id);
-        }
-
-        public void Create(Genre genre)
+        public async Task Create(Genre genre)
         {
             _context.Add(genre);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
-        public Genre EditById(int? id)
+        public async Task<Genre> EditById(int? id)
         {
-            return _context.Genres.Find(id);
+            return await _context.Genres.FindAsync(id);
         }
 
-        public Genre EditByIdAndObject(int id, Genre genre)
+        public async Task<Genre> EditByIdAndObject(int id, Genre genre)
         {
             _context.Update(genre);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
 
             return genre;
         }
 
-        public Genre GetToDeleteById(int? id)
+        public async Task<Genre> GetToDeleteById(int? id)
         {
-            var genre = _context.Genres.FirstOrDefault(m => m.GenreID == id);
+            var genre = await _context.Genres.FirstOrDefaultAsync(m => m.GenreID == id);
 
             return genre;
         }
 
-        public void DeleteById(int? id)
+        public async Task DeleteById(int? id)
         {
-            var genre = _context.Genres.FirstOrDefault(m => m.GenreID == id);
+            var genre = await _context.Genres.FirstOrDefaultAsync(m => m.GenreID == id);
             _context.Genres.Remove(genre);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
     }
 }
