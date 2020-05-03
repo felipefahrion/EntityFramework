@@ -11,7 +11,7 @@ namespace ExercicioEFCoreCodeFirst.PL
         [Required(ErrorMessage = "Informe nome")]
         public String Name { get; set; }
         [Required]
-        [Display(Name = "Data do pedido")]
+        [Display(Name = "informe uma data de nascimento")]
         [DisplayFormat(DataFormatString = "dd/mm/yyyy")]
         public DateTime DateBirth { get; set; }
         public virtual ICollection<ActorMovie> Characters { get; set; }

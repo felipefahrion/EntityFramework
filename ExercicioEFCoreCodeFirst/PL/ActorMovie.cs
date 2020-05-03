@@ -2,7 +2,6 @@
 {
     public class ActorMovie
     {
-
         public int ActorMovieId { get; set; }
         public string Character { get; set; }
         public int MovieId { get; set; }

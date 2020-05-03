@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arthu\\Desktop\\EntityFramework\\MoviesWeb\\MoviesWeb.csproj": {}
+    "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\EntityFramework\\MoviesWeb\\MoviesWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arthu\\Desktop\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj": {
+    "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arthu\\Desktop\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj",
+        "projectUniqueName": "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj",
         "projectName": "ExercicioEFCoreCodeFirst",
-        "projectPath": "C:\\Users\\arthu\\Desktop\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj",
-        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arthu\\Desktop\\EntityFramework\\ExercicioEFCoreCodeFirst\\obj\\",
+        "projectPath": "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj",
+        "packagesPath": "C:\\Users\\Felipe Fahrion\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\EntityFramework\\ExercicioEFCoreCodeFirst\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Felipe Fahrion\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,20 +69,17 @@
         }
       }
     },
-    "C:\\Users\\arthu\\Desktop\\EntityFramework\\MoviesWeb\\MoviesWeb.csproj": {
+    "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\EntityFramework\\MoviesWeb\\MoviesWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arthu\\Desktop\\EntityFramework\\MoviesWeb\\MoviesWeb.csproj",
+        "projectUniqueName": "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\EntityFramework\\MoviesWeb\\MoviesWeb.csproj",
         "projectName": "MoviesWeb",
-        "projectPath": "C:\\Users\\arthu\\Desktop\\EntityFramework\\MoviesWeb\\MoviesWeb.csproj",
-        "packagesPath": "C:\\Users\\arthu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arthu\\Desktop\\EntityFramework\\MoviesWeb\\obj\\",
+        "projectPath": "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\EntityFramework\\MoviesWeb\\MoviesWeb.csproj",
+        "packagesPath": "C:\\Users\\Felipe Fahrion\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\EntityFramework\\MoviesWeb\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\arthu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Felipe Fahrion\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,8 +92,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\arthu\\Desktop\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj": {
-                "projectPath": "C:\\Users\\arthu\\Desktop\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj"
+              "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj": {
+                "projectPath": "C:\\Users\\Felipe Fahrion\\Downloads\\PSA\\EntityFramework\\ExercicioEFCoreCodeFirst\\ExercicioEFCoreCodeFirst.csproj"
               }
             }
           }

@@ -57,3 +57,15 @@ C:\Users\Felipe Fahrion\Downloads\PSA\ExercicioEF_web\ExercicioEFCoreCodeFirst\o
 C:\Users\Felipe Fahrion\Downloads\PSA\ExercicioEF_web\ExercicioEFCoreCodeFirst\obj\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.pdb
 C:\Users\Felipe Fahrion\Downloads\PSA\ExercicioEF_web\ExercicioEFCoreCodeFirst\obj\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.genruntimeconfig.cache
 C:\Users\Felipe Fahrion\Downloads\PSA\ExercicioEF_web\ExercicioEFCoreCodeFirst\obj\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.csprojAssemblyReference.cache
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\bin\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.deps.json
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\bin\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.runtimeconfig.json
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\bin\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.runtimeconfig.dev.json
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\bin\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.dll
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\bin\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.pdb
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\obj\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.csprojAssemblyReference.cache
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\obj\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\obj\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.AssemblyInfoInputs.cache
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\obj\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.AssemblyInfo.cs
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\obj\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.dll
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\obj\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.pdb
+C:\Users\Felipe Fahrion\Downloads\PSA\EntityFramework\ExercicioEFCoreCodeFirst\obj\Debug\netcoreapp2.0\ExercicioEFCoreCodeFirst.genruntimeconfig.cache

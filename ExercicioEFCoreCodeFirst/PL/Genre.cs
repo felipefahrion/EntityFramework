@@ -8,7 +8,7 @@ namespace ExercicioEFCoreCodeFirst.PL
     public class Genre
     {
         public int GenreID { get; set; }
-        [Required(ErrorMessage = "Informe nome")]
+        [Required(ErrorMessage = "Informe uma espedificação para o gênero")]
         public string Name { get; set; }
         public string Description { get; set; }
         public ICollection<Movie> Movies { get; set; }
